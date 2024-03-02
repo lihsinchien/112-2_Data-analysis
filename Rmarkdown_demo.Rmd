@@ -67,4 +67,4 @@ x_{21} & x_{22} & x_{23}
 \end{array}
 \right)$$
 
-更多例子: chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf
+更多例子: https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf
