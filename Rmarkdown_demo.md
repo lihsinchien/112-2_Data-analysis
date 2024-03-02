@@ -60,3 +60,7 @@ x_{21} & x_{22} & x_{23}
 \right)$$
 
 更多例子: <https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf>
+
+## References:
+
+<https://mfb.site.nthu.edu.tw/var/file/387/1387/img/Introduction-RMarkdown.html>
