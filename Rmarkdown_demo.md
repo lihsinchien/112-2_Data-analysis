@@ -52,12 +52,8 @@ E=MC<sup>2</sup>。
 
 獨立一行的數學式子: $$y_{t} = \alpha + \beta_1 x_{1t}+ \varepsilon_t$$
 
-矩陣: $$\left(
-\begin{array}{ccc}
-x_{11}&x_{12}&x_{13}\\
-x_{21}&x_{22}& x_{23}
-\end{array}
-\right)$$
+矩陣:
+$\left( \begin{array}{ccc} x_{11}&x_{12}&x_{13}\\ x_{21}&x_{22}& x_{23} \end{array} \right)$
 
 更多例子:
 <chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.cmor-faculty.rice.edu/~heinken/latex/symbols.pdf>
