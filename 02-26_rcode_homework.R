@@ -37,7 +37,7 @@ sum((x-mean(x))^2)/50
 
 sqrt(var(x)) # standard error 樣本標準差
 
-?rnorm
+?rnorm 
 
 set.seed(3)
 x<-rnorm(100,mean=50,sd=0.1)
