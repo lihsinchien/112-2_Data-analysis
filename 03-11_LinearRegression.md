@@ -40,10 +40,19 @@ $\sigma^2$。
 $(x_1,y_1),(x_2,y_2),...,(x_n,y_n)$。
 
 模型係數 $(\beta_0,\beta_1)$ 的估計採用最小平方法 (OLS, ordinary least
-squares)。 OLS 得到的 $(\hat{\beta}_0,\hat{\beta}_1)$
-會使得樣本的誤差平方和最小
+squares)。
 
-$$ (\hat{\beta}_0,\hat{\beta}_1) = arg \min_{\beta_0,\beta_1} \left\{ \sum_{i=1}^n[y_i-(\beta_0+\beta_1x_i)]^2\right\}$$
+OLS 得到的 $(\hat{\beta}_0,\hat{\beta}_1)$ 會使得樣本的誤差平方和最小:
+
+\$\$
+
+$$ (`\hat{\beta}`{=tex}\_0,`\hat{\beta}`{=tex}*1) = arg
+`\min`{=tex}*{`\beta`{=tex}\_0,`\beta`{=tex}*1} `\left`{=tex}{
+`\sum`{=tex}*{i=1}^n\[y_i-(`\beta`{=tex}\_0+`\beta`{=tex}\_1x_i)$$^2} \]
+
+$$
+(\hat{\beta}_0,\hat{\beta}_1) = arg \min_{\beta_0,\beta_1} \left\{ \sum_{i=1}^n[y_i-(\beta_0+\beta_1x_i)]^2\right\}
+$$
 
 我們可以得到係數的點估計結果
 
