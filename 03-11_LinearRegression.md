@@ -24,9 +24,15 @@ library(ISLR2)
 ## 2.1 模型 Model
 
 簡單線性模型 (Simple linear regression) 模型如下:
-$$ y = \beta_0 + \beta_1 x + \varepsilon $$ 我們假設
-$$E(\varepsilon)=0, Var(\varepsilon)=\sigma^2$$ 需要估計的模型參數有:
-模型係數 $(\beta_0,\beta_1)$, 誤差項變異數 $\sigma^2$。
+
+$$ y = \beta_0 + \beta_1 x + \varepsilon $$
+
+我們假設
+
+$$E(\varepsilon)=0, Var(\varepsilon)=\sigma^2$$
+
+需要估計的模型參數有: 模型係數 $(\beta_0,\beta_1)$, 誤差項變異數
+$\sigma^2$。
 
 ## 2.2 參數估計 Estimation
 
