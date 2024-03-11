@@ -51,13 +51,18 @@ squares)。 OLS 得到的 $(\hat{\beta}_0,\hat{\beta}_1)$
 $$ (\hat{\beta}_0,\hat{\beta}_1) = arg \min_{\beta_0,\beta_1} \left\{ \sum_{i=1}^n[y_i-(\beta_0+\beta_1x_i)]^2\right\}$$
 
 我們可以得到係數的點估計結果
+
 $$ \hat{\beta}_0 = \bar{y}-\hat{\beta}_1\bar{x} $$
+
 $$ \hat{\beta}_1 = \frac{\sum_{i=1}^n[(x_i-\bar{x})(y_i-\bar{y})]}{\sum_{i=1}^n (x_i-\bar{x})^2} $$
 
 以及估計值的變異數
+
 $$ Var(\hat{\beta}_0)=\sigma^2(\frac{1}{n}+\frac{\bar{x}^2}{\sum_{i=1}^n (x_i-\bar{x})^2}) $$
+
 $$ Var(\hat{\beta}_1)=\frac{\sigma^2}{\sum_{i=1}^n (x_i-\bar{x})^2}$$
 變異數中有未知參數 $\sigma^2$，其不偏估計量為
+
 $$\hat{\sigma}^2=\frac{RSS}{n-2}=\frac{\sum_{i=1}^n e_i^2}{n-2}$$ $e_i$
 為殘差
 (residuals)，$e_i=y_i-\hat{y}_i=y_i-\hat{\beta}_0-\hat{\beta}_1x_i$.
@@ -66,6 +71,7 @@ $$\hat{\sigma}^2=\frac{RSS}{n-2}=\frac{\sum_{i=1}^n e_i^2}{n-2}$$ $e_i$
 $\hat{\beta}_0,\hat{\beta}_1$ 變異數 (Variance) 的估計量:
 
 $$ \hat{Var}(\hat{\beta}_0)=\hat{\sigma}^2(\frac{1}{n}+\frac{\bar{x}^2}{\sum_{i=1}^n (x_i-\bar{x})^2}) $$
+
 $$ \hat{Var}(\hat{\beta}_1)=\frac{\hat{\sigma}^2}{\sum_{i=1}^n (x_i-\bar{x})^2}$$
 
 以下將以*Boston*資料，用 R 得出上述的簡單線性回歸模型估計結果。
