@@ -19,7 +19,7 @@ Li-Hsin Chien
 library(ISLR2)
 ```
 
-# 2 簡單線性回歸 Simple Linear Regression
+# 2 簡單線性迴歸 Simple Linear Regression
 
 ## 2.1 模型 Model
 
