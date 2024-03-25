@@ -17,8 +17,10 @@ summary(lm.fit) # 顯示配式結果
 confint(lm.fit) #估計量信賴區間
 
 ########################################
-## 03-18: Multiple linear regression
+## 03-25: Multiple linear regression
 ########################################
+
+library(ISLR2)
 
 plot(Boston) #畫出所有變數的兩兩分佈圖
 round(cor(Boston),digits=2) #計算相關係數
@@ -27,13 +29,10 @@ library(ISLR2)
 lm.fit2<-lm(medv~lstat+age,data=Boston) #放入兩個解釋變數
 summary(lm.fit2)
 
+## Fit linear model
+
 lm.fit3<-lm(medv~., data=Boston)
 summary(lm.fit3) # 放入資料中所有的其他欄位當解釋變數
-
-lm.fit4<-lm(medv~.-age, data=Boston)
-summary(lm.fit4) # age 外的所有其他變數
-
-round(cor(Boston),digits=2)
 
 ## Variable Selection: Backward
 
@@ -43,16 +42,13 @@ summary(lm.fit3.1)
 
 lm.fit3.2<-lm(medv~.-indus-age,data=Boston)
 summary(lm.fit3.2)
+model.f.p<-lm.fit3.2
 
-# AIC 
+# AIC (Akaike information criterion) = 2k-2ln(L), choose model with smallest AIC
 drop1(lm.fit3)
 ?step 
-lm.fit.backward.aic<-step(lm.fit3) #Choose a model by AIC
+model.f.aic<-step(lm.fit3) #Choose a model by AIC
 
-## transform
-
-lm.fit5<-lm(medv~poly(lstat,5),data=Boston)
-plot(lm.fit5)
 
 ## Qualitative predictors
 
@@ -73,3 +69,20 @@ dev.off()
 plot(lm.fit,which=1)
 par(mfrow=c(1,2))
 plot(lm.fit,which=c(1,3))
+
+data<-read.table(file="savings.txt",header=T)
+head(data)
+dim(data)
+?savings
+
+lmod<- lm(sr~.,savings)
+summary(lmod)
+lmod.f<-step(lmod)
+summary(lmod.f)
+
+par(mfrow=c(2,2)) 
+plot(lmod.f) 
+
+dev.off()
+plot(lmod,which=5)
+plot(lmod,which=4)
