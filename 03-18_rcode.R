@@ -47,5 +47,29 @@ summary(lm.fit3.2)
 # AIC 
 drop1(lm.fit3)
 ?step 
-step(lm.fit3) #Choose a model by AIC
+lm.fit.backward.aic<-step(lm.fit3) #Choose a model by AIC
 
+## transform
+
+lm.fit5<-lm(medv~poly(lstat,5),data=Boston)
+plot(lm.fit5)
+
+## Qualitative predictors
+
+head(Carseats)
+
+lm.fit<-lm(Sales ~., data = Carseats)
+summary(lm.fit)
+
+attach(Carseats)
+contrasts(ShelveLoc)
+?contrasts
+
+## diagnosis
+par(mfrow=c(2,2))
+plot(lm.fit)
+
+dev.off()
+plot(lm.fit,which=1)
+par(mfrow=c(1,2))
+plot(lm.fit,which=c(1,3))
