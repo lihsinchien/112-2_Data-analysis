@@ -5,8 +5,8 @@ textbook: (available for free download on the website: https://www.statlearning.
 2. An Introduction to Statistical Learning: with Applications in R, 2nd, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani
 
 ## 03/25 上課內容:
-1. 模型診斷例子: https://www.rdocumentation.org/packages/faraway/versions/1.0.8/topics/savings (檔案名稱: savings.txt)
-
+1. 上課提到的程式碼: 3-25_rcode.R
+2. 模型診斷例子: https://www.rdocumentation.org/packages/faraway/versions/1.0.8/topics/savings (檔案名稱: savings.txt)
 
 ## 3/18 上課內容: 檢討 03-11 作業
 由於部分同學上傳的作業有問題，請大家更改後於這星期五 (3/22) 前重新上傳 (已在 i-learning 開了新的作業上傳)。
