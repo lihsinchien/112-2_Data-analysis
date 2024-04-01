@@ -4,6 +4,11 @@ textbook: (available for free download on the website: https://www.statlearning.
 1. An Introduction to Statistical Learning: with Applications in Python, 1st, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani/Jonathan Taylor
 2. An Introduction to Statistical Learning: with Applications in R, 2nd, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani
 
+## 04/01 上課內容:
+1. 上課提到的程式碼: 04-01_rcode.R
+2. linear regression model 模型診斷: 使用資料欄位說明: https://www.rdocumentation.org/packages/faraway/versions/1.0.8/topics/savings (檔案名稱: savings.txt)
+3. logistic regression model: 資料描述，估計模型 (glm())
+
 ## 03/25 上課內容:
 1. 上課提到的程式碼: 3-25_rcode.R
 2. 模型診斷例子: https://www.rdocumentation.org/packages/faraway/versions/1.0.8/topics/savings (檔案名稱: savings.txt)
