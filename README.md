@@ -5,6 +5,10 @@ textbook: (available for free download on the website: https://www.statlearning.
 2. An Introduction to Statistical Learning: with Applications in R, 2nd, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani
 
 ## 04/08 上課內容:
+1. 期中考相關考試內容: "上課講義/mid exam.pdf"
+2. 03-11作業解答: "Homework 03.11 作業解答.pdf"
+
+## 04/08 上課內容:
 1. 上課提到的程式碼: 04-08_rcode.R
 2. 作業 (這星期六以前上傳 ilearning): Homework 0408.pdf
    
