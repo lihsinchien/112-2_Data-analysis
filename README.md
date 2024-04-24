@@ -4,6 +4,9 @@ textbook: (available for free download on the website: https://www.statlearning.
 1. An Introduction to Statistical Learning: with Applications in Python, 1st, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani/Jonathan Taylor
 2. An Introduction to Statistical Learning: with Applications in R, 2nd, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani
 
+## 04/22 上課內容:
+1. Jupyter notebook & Python 基本指令: 04-22_Ch2_basic-1(numpy).ipynb
+
 ## 04/10 上課內容:
 1. 期中考相關考試內容: "上課講義/mid exam.pdf"
 2. 03-11作業解答: "Homework 03.11 作業解答.pdf"
