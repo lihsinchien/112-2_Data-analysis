@@ -4,6 +4,11 @@ textbook: (available for free download on the website: https://www.statlearning.
 1. An Introduction to Statistical Learning: with Applications in Python, 1st, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani/Jonathan Taylor
 2. An Introduction to Statistical Learning: with Applications in R, 2nd, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani
 
+
+## 04/29 上課內容:
+1. Chapter 5 指令介紹: 04-29_Ch5_resampling method.ipynb
+2. 作業: 設定 random_state=123, 考慮 horsepower最高次方數到 10 次方，找出最小 MSE 之模型。
+
 ## 04/22 上課內容:
 1. Jupyter notebook & Python 基本指令: 04-22_Ch2_basic-1(numpy).ipynb
 
