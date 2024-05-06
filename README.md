@@ -4,6 +4,8 @@ textbook: (available for free download on the website: https://www.statlearning.
 1. An Introduction to Statistical Learning: with Applications in Python, 1st, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani/Jonathan Taylor
 2. An Introduction to Statistical Learning: with Applications in R, 2nd, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani
 
+## 05/06 上課內容:
+1. Chapter 5 指令介紹: 05-01_Ch5_resampling method.ipynb, 05-06_Ch5-resampling-bootstrap.ipynb 
 
 ## 04/29 上課內容:
 1. Chapter 5 指令介紹: 04-29_Ch5_resampling method.ipynb
