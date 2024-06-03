@@ -4,6 +4,12 @@ textbook: (available for free download on the website: https://www.statlearning.
 1. An Introduction to Statistical Learning: with Applications in Python, 1st, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani/Jonathan Taylor
 2. An Introduction to Statistical Learning: with Applications in R, 2nd, Gareth James/Daniela Witten/Trevor Hastie/Robert Tibshirani
 
+## 05/27 上課內容:
+1. Bagging, Random Forest: 05-27_BaggingAndRandomForest.ipynb
+
+## 05/20 上課內容:
+1. Classification tree: 05-20_ClassificationTree.ipynb
+
 ## 05/13 上課內容:
 1. Regression tree: 0513_Ch08-RegressionTree.ipynb
 
